@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Margin="20" Text="Текст"/>
+        <TextBlock Margin="20" Text="Текст" MouseEnter="TextBlock_MouseEnter"/>
         <Button Margin="20" Content="Кнопка" HorizontalAlignment="Center" VerticalAlignment="Center"
-                FontSize="20" Background="White" BorderBrush="Black"/>
+                FontSize="20" Background="White" BorderBrush="Black" Click="Button_Click"/>
     </Grid>
 </Window>

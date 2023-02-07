@@ -24,5 +24,15 @@ namespace Task5WpfApp
         {
             InitializeComponent();
         }
+
+        private void TextBlock_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
